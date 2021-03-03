@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="mvc.gui.Vista">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="669" height="429"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f7dcd" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="413d0" class="javax.swing.JButton" binding="cargarFicheroBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Cargar"/>
+              <icon value="document-open-folder.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.cargar.fichero"/>
+            </properties>
+          </component>
+          <component id="d4e26" class="javax.swing.JButton" binding="guardarFicheroBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Guardar"/>
+              <icon value="document-save-all.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.guardar.fichero"/>
+            </properties>
+          </component>
+          <component id="7feab" class="javax.swing.JButton" binding="mostrarRelacionesBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Relaciones"/>
+              <icon value="document-preview-archive.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.mostrar.relaciones"/>
+            </properties>
+          </component>
+          <component id="6ac37" class="javax.swing.JButton" binding="graficaBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Grafica"/>
+              <icon value="insert-chart-pie-2.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.mostrar.grafica"/>
+            </properties>
+          </component>
+          <component id="9a0ef" class="javax.swing.JButton" binding="barrasBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Barras"/>
+              <icon value="insert-chart-bar.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.grafica.barras"/>
+            </properties>
+          </component>
+          <component id="cca8d" class="javax.swing.JButton" binding="informeBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Informe"/>
+              <icon value="report.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.mostrar.informe"/>
+            </properties>
+          </component>
+          <component id="3f8f3" class="javax.swing.JButton" binding="informeBasicoBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="InformeBasico"/>
+              <icon value="report.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.informe.basico"/>
+            </properties>
+          </component>
+          <component id="fe975" class="javax.swing.JButton" binding="preferenciasBtn">
+            <constraints/>
+            <properties>
+              <actionCommand value="Preferencias"/>
+              <icon value="system-settings.png"/>
+              <text value=""/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.preferencias"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <tabbedpane id="d90c7" binding="tabbedPane1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <toolTipText resource-bundle="ResourceBundleIdiomas" key="panel.entrenador"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5db79" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <tabbedpane title-resource-bundle="ResourceBundleIdiomas" title-key="texto.tenista"/>
+            </constraints>
+            <properties>
+              <requestFocusEnabled value="false"/>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="texto.tenista"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d6d85" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.licencia"/>
+                </properties>
+              </component>
+              <component id="3ce30" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.nombre"/>
+                </properties>
+              </component>
+              <component id="74392" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.apellidos"/>
+                </properties>
+              </component>
+              <component id="4078a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.edad"/>
+                </properties>
+              </component>
+              <component id="b627" class="javax.swing.JTextField" binding="licenciaTenistaTxt">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c967e" class="javax.swing.JTextField" binding="nombreTenistaTxt">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6b540" class="javax.swing.JTextField" binding="apellidosTenistaTxt">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="79007" class="javax.swing.JButton" binding="nuevoTenistaBtn">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="NuevoTenista"/>
+                  <icon value="user-new.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.nuevo.tenista"/>
+                </properties>
+              </component>
+              <component id="8db60" class="javax.swing.JButton" binding="modificarTenistaBtn">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="ModificarTenista"/>
+                  <icon value="edit-cut-3.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.modificar.tenista"/>
+                </properties>
+              </component>
+              <component id="a220" class="javax.swing.JButton" binding="eliminarTenistaBtn">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="EliminarTenista"/>
+                  <icon value="edit-delete-6.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.eliminar.tenista"/>
+                </properties>
+              </component>
+              <scrollpane id="5a884">
+                <constraints>
+                  <grid row="8" column="2" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3180e" class="javax.swing.JList" binding="listTenista">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="28234" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.raquetas"/>
+                  <toolTipText value=""/>
+                </properties>
+              </component>
+              <scrollpane id="d91c9">
+                <constraints>
+                  <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="5f2ce" class="javax.swing.JList" binding="listRaquetasTenista">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="6bd33" class="javax.swing.JButton" binding="altaRaquetabtn">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="AltaRaqueta"/>
+                  <icon value="sports-tennis.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.alta.raqueta"/>
+                </properties>
+              </component>
+              <component id="afee3" class="com.github.lgooddatepicker.components.DatePicker" binding="tenistaDatePicker">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="8f5ae" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <tabbedpane title-resource-bundle="ResourceBundleIdiomas" title-key="panel.raqueta"/>
+            </constraints>
+            <properties>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="panel.raqueta"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a6451" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.codigo"/>
+                </properties>
+              </component>
+              <component id="1001e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.marca"/>
+                </properties>
+              </component>
+              <component id="58c76" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.modelo"/>
+                </properties>
+              </component>
+              <component id="3b235" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.precio"/>
+                </properties>
+              </component>
+              <component id="9bad3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.foto"/>
+                </properties>
+              </component>
+              <component id="2941e" class="javax.swing.JTextField" binding="codigoRaquetaTxt">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="dcf96" class="javax.swing.JTextField" binding="marcaRaquetaTxt">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="4dff0" class="javax.swing.JTextField" binding="modeloRaquetaTxt">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="71c61" class="javax.swing.JTextField" binding="precioRaquetaTxt">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="33f62" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.tenista"/>
+                </properties>
+              </component>
+              <component id="6b291" class="javax.swing.JComboBox" binding="TenistaParaRaquetaCb">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="7e226" class="javax.swing.JButton" binding="nuevaRaquetaBtn">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="NuevaRaqueta"/>
+                  <icon value="user-new.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.nueva.raqueta"/>
+                </properties>
+              </component>
+              <component id="ae272" class="javax.swing.JButton" binding="modificarRaquetaBtn">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="ModificarRaqueta"/>
+                  <icon value="edit-cut-3.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.modificar.raqueta"/>
+                </properties>
+              </component>
+              <component id="32d2e" class="javax.swing.JButton" binding="eliminarRaquetaBtn">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="EliminarRaqueta"/>
+                  <icon value="edit-delete-6.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.eliminar.raqueta"/>
+                </properties>
+              </component>
+              <scrollpane id="c909a">
+                <constraints>
+                  <grid row="12" column="2" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="94f63" class="javax.swing.JList" binding="listRaquetas">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="af002" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7eec7" class="javax.swing.JButton" binding="seleccionarFotoRaquetaBtn">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="SeleccionarFoto"/>
+                      <icon value="insert-image-2.png"/>
+                      <text value=""/>
+                      <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.imagen"/>
+                    </properties>
+                  </component>
+                  <component id="4a92b" class="javax.swing.JLabel" binding="fotoRaquetaLbl">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="cba1b" class="javax.swing.JButton" binding="eliminarFotoRaquetaBtn">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="EliminarFoto"/>
+                      <horizontalTextPosition value="2"/>
+                      <text resource-bundle="ResourceBundleIdiomas" key="boton.eliminar.foto"/>
+                      <toolTipText resource-bundle="ResourceBundleIdiomas" key="texto.eliminar.foto"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="a9495" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:d:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <tabbedpane title-resource-bundle="ResourceBundleIdiomas" title-key="panel.entrenador"/>
+            </constraints>
+            <properties>
+              <toolTipText resource-bundle="ResourceBundleIdiomas" key="panel.entrenador"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="67a5d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.dni"/>
+                </properties>
+              </component>
+              <component id="f1bcb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.nombre"/>
+                </properties>
+              </component>
+              <component id="cb059" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.apellidos"/>
+                </properties>
+              </component>
+              <component id="88194" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.edad"/>
+                </properties>
+              </component>
+              <component id="93f1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <text resource-bundle="ResourceBundleIdiomas" key="texto.tenista"/>
+                </properties>
+              </component>
+              <component id="f7801" class="javax.swing.JTextField" binding="textDni">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6ff88" class="javax.swing.JTextField" binding="textNombreEntrenador">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="17a07" class="javax.swing.JTextField" binding="textApellidosEntrenador">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="f7b7b" class="com.github.lgooddatepicker.components.DatePicker" binding="datePickerEntrenador">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="ea3ef" class="javax.swing.JComboBox" binding="comboBoxEntrenador">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9068" class="javax.swing.JButton" binding="nuevoEntrenadorBoton">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="NuevoEntrenador"/>
+                  <icon value="user-new.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.nuevo.entrenador"/>
+                </properties>
+              </component>
+              <component id="419d4" class="javax.swing.JButton" binding="modificarEntrenadorBoton">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="ModificarEntrenador"/>
+                  <icon value="edit-cut-3.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.modificar.entrenador"/>
+                </properties>
+              </component>
+              <component id="2e2db" class="javax.swing.JButton" binding="eliminarEntrenadorBoton">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <actionCommand value="EliminarEntrenador"/>
+                  <icon value="edit-delete-6.png"/>
+                  <text value=""/>
+                  <toolTipText resource-bundle="ResourceBundleIdiomas" key="boton.eliminar.entrenador"/>
+                </properties>
+              </component>
+              <component id="dd29b" class="javax.swing.JList" binding="listEntrenador">
+                <constraints>
+                  <grid row="10" column="2" row-span="5" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <forms defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <grid id="fadf5" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="29468" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="© Hector García García 2021"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
